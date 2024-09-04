@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Center the entire section */
+#profile {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+  text-align: center;
+}
+
+.section-pic img {
+  width: 220px; /* Increased the width slightly */
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.section_text {
+  margin-bottom: 20px;
+}
+
+.Section_text_p1 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section_text_p2 {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.Button-ctn {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 20px; /* Add space between buttons */
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 10px 30px; /* Increased padding for a more substantial button */
+  font-size: 1rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-color-2 {
+  background-color: #333;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-color-2:hover {
+  background-color: #555;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-color-1 {
+  background-color: #ddd;
+  color: #333;
+}
+
+.btn-color-1:hover {
+  background-color: #bbb;
+}
+
+#socials-container {
+  display: flex;
+  gap: 20px; /* Add space between social icons */
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icon, .icon2 {
+  width: 40px; /* Adjust icon size */
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover, .icon2:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
 }

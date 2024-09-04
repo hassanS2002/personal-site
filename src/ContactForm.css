@@ -1,0 +1,47 @@
+/* Container styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2D2D2D; /* Background color similar to the current header background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Input and Textarea Styling */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    color: black; /* Set font color to black */
+    background-color: #fff; /* White background for inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+}
+
+/* Adjust placeholder text color for better visibility */
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+    color: #000000;
+}
+
+/* Button styling */
+button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
