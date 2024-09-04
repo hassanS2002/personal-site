@@ -52,6 +52,7 @@ function App() {
             <p className="Section_text_p1">Hello, I'm</p>
             <h1 className="title">Hassan Siddiqui</h1>
             <p className="section_text_p2">Aspiring Software Engineer</p>
+            <p className="section_text_p2">4th Year Computer Engineering Student</p>
             <div className="Button-ctn">
               <button className="btn btn-color-2 mr-4" onClick={openResume}>Resume</button>
               <Link to="/contact" className="btn btn-color-1">Contact</Link>
