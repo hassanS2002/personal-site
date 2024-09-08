@@ -9,8 +9,8 @@
 }
 
 .section-pic img {
-  width: 220px; /* Increased the width slightly */
-  height: 220px;
+  width: 300px; /* Increased the width slightly */
+  height: 300px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
@@ -87,4 +87,9 @@
 
 .icon:hover, .icon2:hover {
   transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Add this to the top of your App.css file */
+body {
+    padding-top: 60px; /* Adjust this value based on your navbar height */
 }
